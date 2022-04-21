@@ -1,0 +1,1042 @@
+[
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9933945536613464
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9999890327453613
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9999051094055176
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.8479196429252625
+      },
+      "is_asian": {
+        "name": "True",
+        "score": 0.9967377781867981
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9841732978820801
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.5839020609855652
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9972910284996033
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9997339844703674
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": true,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 0
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9938644766807556
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9972000122070312
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.999121367931366
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9870600700378418
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9941214919090271
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.995930016040802
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.9376007318496704
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9812555909156799
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9986672401428223
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 120
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9985517859458923
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9999607801437378
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9999573230743408
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9975720047950745
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.709010660648346
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9823970794677734
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.8498040437698364
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9674823880195618
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9943821430206299
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 241
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "True",
+        "score": 0.9692291617393494
+      },
+      "is_coder": {
+        "name": "True",
+        "score": 0.9895490407943726
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.7692981362342834
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9801055788993835
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9850683808326721
+      },
+      "is_on_phone": {
+        "name": "True",
+        "score": 0.9901459217071533
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.7051864862442017
+      },
+      "is_married": {
+        "name": "True",
+        "score": 0.9825390577316284
+      },
+      "on_bluetooth": {
+        "name": "True",
+        "score": 0.6611176133155823
+      }
+    },
+    "expect": {
+      "is_male": true,
+      "is_coder": true,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": true,
+      "wearing_slipper": true,
+      "is_married": true,
+      "on_bluetooth": false,
+      "id": 361
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "True",
+        "score": 0.5030727386474609
+      },
+      "is_coder": {
+        "name": "True",
+        "score": 0.989069402217865
+      },
+      "is_bald": {
+        "name": "True",
+        "score": 0.8283633589744568
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9959217309951782
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9999043941497803
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.99944669008255
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.8097720742225647
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9474785327911377
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9638449549674988
+      }
+    },
+    "expect": {
+      "is_male": true,
+      "is_coder": true,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": true,
+      "on_bluetooth": false,
+      "id": 482
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9993482232093811
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.5069597959518433
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9749778509140015
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9998241662979126
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.999943733215332
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9995428919792175
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.7210705876350403
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9916365146636963
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9998338222503662
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": true,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 602
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.8899168968200684
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9999349117279053
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9999138116836548
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9968551397323608
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.5231805443763733
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9840631484985352
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.8422946929931641
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9896581768989563
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9946020245552063
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 723
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "True",
+        "score": 0.8685237765312195
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9999001026153564
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9983128309249878
+      },
+      "wear_plaid_shirt": {
+        "name": "True",
+        "score": 0.8751733303070068
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9964789152145386
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9879207611083984
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.8378868103027344
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9882749319076538
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9545580148696899
+      }
+    },
+    "expect": {
+      "is_male": true,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": true,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 843
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9996811747550964
+      },
+      "is_coder": {
+        "name": "True",
+        "score": 0.8893671631813049
+      },
+      "is_bald": {
+        "name": "True",
+        "score": 0.7585127949714661
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9925962090492249
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9945291876792908
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9982600808143616
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.8996660113334656
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9973249435424805
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9963829517364502
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": true,
+      "is_bald": true,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 964
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9671257734298706
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9980387091636658
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9907448887825012
+      },
+      "wear_plaid_shirt": {
+        "name": "True",
+        "score": 0.7822551131248474
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.999934196472168
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9991859793663025
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.8832639455795288
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.7118440866470337
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9522550702095032
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": true,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 1084
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.999769389629364
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9999901056289673
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9999791383743286
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9948089122772217
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.999802827835083
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9998863935470581
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.8523597121238708
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9968460202217102
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9619022607803345
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 60
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9919003248214722
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9992707371711731
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.998846173286438
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9541125297546387
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9998881816864014
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9999713897705078
+      },
+      "wearing_slipper": {
+        "name": "False",
+        "score": 0.5602477192878723
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9938204288482666
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.6647078394889832
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": false,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 180
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9998804330825806
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9998726844787598
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9999855756759644
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9978218078613281
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9971109628677368
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9854134321212769
+      },
+      "wearing_slipper": {
+        "name": "False",
+        "score": 0.6434465646743774
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.5064651966094971
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9985388517379761
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": true,
+      "on_bluetooth": false,
+      "id": 301
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9992324113845825
+      },
+      "is_coder": {
+        "name": "True",
+        "score": 0.9996473789215088
+      },
+      "is_bald": {
+        "name": "True",
+        "score": 0.9997161030769348
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9130734205245972
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.5986758470535278
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9465796947479248
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.8632032871246338
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9815671443939209
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9961969256401062
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": true,
+      "is_bald": true,
+      "wear_plaid_shirt": false,
+      "is_asian": true,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 421
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9990493655204773
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9997002482414246
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9999350309371948
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9922072291374207
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9998847246170044
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9996029138565063
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.9853680729866028
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9988514184951782
+      },
+      "on_bluetooth": {
+        "name": "True",
+        "score": 0.5806612372398376
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": true,
+      "id": 542
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9996539354324341
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9898838400840759
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9994944334030151
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9949350357055664
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9924055933952332
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9947591423988342
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.7345728874206543
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9935531616210938
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9981525540351868
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 662
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "True",
+        "score": 0.9392685890197754
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9997943639755249
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9999082088470459
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9951825737953186
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9987493753433228
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9929713606834412
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.7370641231536865
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.997969925403595
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9976663589477539
+      }
+    },
+    "expect": {
+      "is_male": true,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 783
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9986573457717896
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9992365837097168
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9981780052185059
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9834398627281189
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9947527647018433
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9984161853790283
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.8943904638290405
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.988610029220581
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9813736081123352
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 903
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "False",
+        "score": 0.9998729228973389
+      },
+      "is_coder": {
+        "name": "False",
+        "score": 0.9998286962509155
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9996036291122437
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9961888790130615
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9581884145736694
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.985870897769928
+      },
+      "wearing_slipper": {
+        "name": "False",
+        "score": 0.5201357007026672
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9987037181854248
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9959797859191895
+      }
+    },
+    "expect": {
+      "is_male": false,
+      "is_coder": false,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 1024
+    }
+  },
+  {
+    "result": {
+      "is_male": {
+        "name": "True",
+        "score": 0.5211395621299744
+      },
+      "is_coder": {
+        "name": "True",
+        "score": 0.7615262269973755
+      },
+      "is_bald": {
+        "name": "False",
+        "score": 0.9766213297843933
+      },
+      "wear_plaid_shirt": {
+        "name": "False",
+        "score": 0.9974887371063232
+      },
+      "is_asian": {
+        "name": "False",
+        "score": 0.9970453381538391
+      },
+      "is_on_phone": {
+        "name": "False",
+        "score": 0.9961814284324646
+      },
+      "wearing_slipper": {
+        "name": "True",
+        "score": 0.8464838266372681
+      },
+      "is_married": {
+        "name": "False",
+        "score": 0.9974250197410583
+      },
+      "on_bluetooth": {
+        "name": "False",
+        "score": 0.9951710104942322
+      }
+    },
+    "expect": {
+      "is_male": true,
+      "is_coder": true,
+      "is_bald": false,
+      "wear_plaid_shirt": false,
+      "is_asian": false,
+      "is_on_phone": false,
+      "wearing_slipper": true,
+      "is_married": false,
+      "on_bluetooth": false,
+      "id": 1144
+    }
+  }
+]
