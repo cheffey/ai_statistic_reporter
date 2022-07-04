@@ -1,5 +1,6 @@
 class Box:
-    def __init__(self, x, y, w, h):
+    def __init__(self, x, y, w, h, clazz):
+        self.clazz = clazz
         self.x = x
         self.y = y
         assert w >= 0
@@ -9,8 +10,8 @@ class Box:
 
 
 class ResBox(Box):
-    def __init__(self, x, y, w, h, score=None):
-        super().__init__(x, y, w, h)
+    def __init__(self, x, y, w, h, clazz, score=None):
+        super().__init__(x, y, w, h, clazz)
         self.score = score
 
     def __str__(self):

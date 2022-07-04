@@ -21,9 +21,15 @@ class DetectionReporter(BaseReporter):
         self.classed_detections = dic()
         self.params = DetFilParams(min_score_excluded, max_score_excluded, min_iou_limit_excluded, max_iou_limit_excluded)
 
-    def add(self, clazz: str, res_boxes: Iterable[ResBox], exp_boxes: Iterable[Box]):
-        detections = self.classed_detections.get_or_insert(clazz, lst())
-        detections.append(Detection(lst(res_boxes), lst(exp_boxes)))
+    def add(self, res_boxes: Iterable[ResBox], exp_boxes: Iterable[Box]):
+        res_boxes = lst(res_boxes)
+        exp_boxes = lst(exp_boxes)
+        clazzs = set((res_boxes + exp_boxes).map(lambda x: x.clazz))
+        for clazz in clazzs:
+            detections = self.classed_detections.get_or_insert(clazz, lst())
+            res_boxes0 = res_boxes.filter(lambda x: x.clazz == clazz)
+            exp_boxes0 = exp_boxes.filter(lambda x: x.clazz == clazz)
+            detections.append(Detection(res_boxes0, exp_boxes0))
 
     def build(self):
         det_sums = dic()
@@ -35,6 +41,7 @@ class DetectionReporter(BaseReporter):
 
     def build_tables(self) -> lst[Table]:
         rtn = lst()
+        IOU_APs = dic()
         for clazz, detections, in self.classed_detections.pairs():
             det_results: lst[DetectionResult] = _get_det_results(detections, self.params)
             det_sum: lst[DetectionResult] = _get_top_10(det_results)
@@ -44,7 +51,22 @@ class DetectionReporter(BaseReporter):
             for i, (iou, AP, det) in enumerate(iou_AP_det):
                 color = _AP_CURVE_COLORS.get(i, 'black')
                 rtn.append(self.__build_PR_chart(iou, AP, det, color))
+                APs = IOU_APs.get_or_insert(iou, lst())
+                APs.append(AP.value)
+        IOU_mAP_table = self.__build_IOU_mAP_table(IOU_APs)
+        rtn.insert(0, IOU_mAP_table)
         return rtn
+
+    def __build_IOU_mAP_table(self, IOU_APs) -> Table:
+        table_rows = lst()
+        for IOU, APs in IOU_APs.pairs():
+            mAP = sum(APs) / len(APs)
+            table_rows.append((IOU, f'{mAP * 100}%'))
+        table_rows.sort(key=lambda x: x[1], reverse=True)
+        table = Table()
+        headers = ['IOU', "mAP"]
+        table.add(headers, table_rows)
+        return table
 
     def __build_table(self, clazz: str, det_sum: lst[DetectionResult]) -> Table:
         table_rows = det_sum.map(lambda x: x.target_detection_table_row(clazz))

@@ -37,7 +37,8 @@ class lst(List[X]):
         return self
 
     def foreach(self, func) -> None:
-        self.foreach(func)
+        for ele in self:
+            func(ele)
 
     def filter(self, func) -> 'lst[X]':
         return lst[X](filter(func, self))
